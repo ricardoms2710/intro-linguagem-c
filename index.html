@@ -1,1 +1,52 @@
-<html><body>Introducao a Linguagem C</body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Código em Linguagem C</title>
+    <link rel="stylesheet" href="C_HTML.css">
+</head>
+<body>
+
+<div id="programa">
+</div>
+<hr>
+<table> 
+	<tr>
+		<td>
+			<pre><code id="c-lines">
+			</code></pre>
+		</td>
+		
+		<td>
+<pre><code id="c-code" class="language-c">#include &lt;stdio.h&gt;
+#define dois 2
+
+float raiz( int numero )
+{
+	// Calcula a raíz quadrada:
+	return sqrt(numero);
+}
+
+/* testando comentário
+ * grande em várias
+ * linhas              */
+int main() 
+{
+	// Exemplo de código em Linguagem C
+	int num1 = 10;          /* escrevendo algo */
+	int num2 = 20;
+	int sum = num1 + num2;
+	
+	printf("A soma de %d e %d é %d\n", num1, num2, sum);
+	
+	return 0;
+}
+</code></pre>
+		<td>
+	</tr> 
+</table>
+
+<script src="C_HTML.js"></script>
+</body>
+</html>

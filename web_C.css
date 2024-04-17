@@ -1,0 +1,70 @@
+code {
+    font-family: Consolas, monospace;
+    font-size: 16px;
+    background-color: #f4f4f4;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0;
+    line-height: 1.5;
+	border: 1px solid black;
+    display: block;
+    overflow-x: auto;
+}
+
+.linha { display: inline-block; width: 100%; }
+.light-gray { background-color: #FFDDDD; }
+.light-blue { background-color: #DDDDFF; }
+
+/* Palavras-chave de controle de fluxo */
+.code-control {
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Palavras-chave de declaração de tipo */
+.code-type {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+/* Palavras-chave de armazenamento e escopo */
+.code-storage {
+    color: #28a745;
+    font-weight: bold;
+}
+
+/* Palavras-chave de manipulação de memória */
+.code-memory {
+    color: #6f42c1;
+    font-weight: bold;
+}
+
+/* Palavras-chave de definição de estrutura */
+.code-structure {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+/* Palavras-chave de inclusão de bibliotecas */
+.code-pre_proc {
+    color: #17a2b8;
+    font-weight: bold;
+}
+
+/* Palavras-chave de manipulação de ponteiros */
+.code-pointer {
+    color: #6c757d;
+    font-weight: bold;
+}
+
+
+/* Uma linha comentada com: // */
+.code-Line_comment {
+    color: #888800;
+}
+
+/* Um bloco comentado com: /* */
+.code-MultiLine_comment {
+    color: #880088;
+}
+
